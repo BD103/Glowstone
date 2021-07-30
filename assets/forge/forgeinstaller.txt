@@ -1,0 +1,7 @@
+Unlike the Fabric installer, Forge does not specify all of its libraries in clients.json.
+This means that deleting the libraries/ folder will make any Forge installation unplayable.
+
+> All of these libraries can be found in whatlibrariesforgeinstalls.txt.
+
+This will make automating the process more difficult that just downloading the clients.json file from a meta server.
+As I work, I will look at the source (https://github.com/MinecraftForge/Installer) to see if I can reverse-engineer the process.
