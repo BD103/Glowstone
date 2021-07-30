@@ -1,0 +1,41 @@
+/*
+* The following libraries are installed by the Minecraft Forge installer jar
+* If you delete the .minecraft/libraries folder, they will not get downloaded
+* This process must get mimicked for Glowstone's installer to work
+*/
+
+Only in comp_forge/com/github: jponge
+Only in comp_forge/com/google/code: findbugs
+Only in comp_forge/com/google/code/gson/gson: 2.8.7
+Only in comp_forge/com/google: errorprone
+Only in comp_forge/com/google/guava: failureaccess
+Only in comp_forge/com/google/guava/guava: 20.0
+Only in comp_forge/com/google/guava/guava: 25.1-jre
+Only in comp_forge/com/google/guava/guava: 30.1-android
+Only in comp_forge/com/google/guava: listenablefuture
+Only in comp_forge/com/google: j2objc
+Only in comp_forge/com/google: jimfs
+Only in comp_forge/com: nothome
+Only in comp_forge/com: opencsv
+Only in comp_forge: commons-beanutils
+Only in comp_forge: commons-collections
+Only in comp_forge/commons-io/commons-io: 2.4
+Only in comp_forge/commons-logging/commons-logging: 1.2
+Only in comp_forge: de
+Only in comp_forge/net: md-5
+Only in comp_forge/net: minecraft
+Only in comp_forge/net/minecraftforge: binarypatcher
+Only in comp_forge/net/minecraftforge: fmlcore
+Only in comp_forge/net/minecraftforge: forge
+Only in comp_forge/net/minecraftforge: installertools
+Only in comp_forge/net/minecraftforge: jarsplitter
+Only in comp_forge/net/minecraftforge: javafmllanguage
+Only in comp_forge/net/minecraftforge: lex
+Only in comp_forge/net/minecraftforge: mclanguage
+Only in comp_forge/net/minecraftforge: srgutils
+Only in comp_forge/org/apache/commons: commons-collections4
+Only in comp_forge/org/apache/commons: commons-text
+Only in comp_forge/org: cadixdev
+Only in comp_forge/org: checkerframework
+Only in comp_forge/org: codehaus
+Only in comp_forge: trove
