@@ -15,16 +15,3 @@ class Fabric(tk.Frame):
 
     def format(self):
         self.install_button.grid(column=2, row=3)
-
-    def get_mc_versions(self, stable=True) -> list:
-        req = requests.get("https://meta.fabricmc.net/v2/versions/game")
-        res = []
-
-        # Adds only stable releases if true, else adds everything
-        for i in req.json():
-            if stable and i["stable"]:
-                res.append(i)
-            elif not stable:
-                res.append(i)
-
-        return res
