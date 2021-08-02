@@ -3,5 +3,5 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (Glowstone)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Poetry (Glowstone)" project-jdk-type="Python SDK" />
 </project>
