@@ -2,6 +2,7 @@ import requests
 
 meta_url = "https://meta.fabricmc.net"
 
+
 def get_mc_versions(stable=True):
     req = requests.get(meta_url + "/v2/versions/game")
     res = []
@@ -14,6 +15,7 @@ def get_mc_versions(stable=True):
             res.append(i)
 
     return res
+
 
 def get_fabric_versions(stable=False):
     req = requests.get(meta_url + "/v2/versions/loader")
